@@ -39,13 +39,23 @@ section{
     width: 100%;
 }
 .contato{
-    background-color: lime;
+    
     width: 100%;
 }
 footer{
     place-self: end start;
     width: 100%;
     grid-area: content;
-    height: 100px;
+    height: 50px;
     background-color: #0008;
+    display: grid;
+    font-size: .75rem;
+    place-content: center;
+    border-top: 2px solid #fff;
+
+}
+
+/*Responsividade para Tablet*/
+@media (max-widht: 960px) {
+    
 }
